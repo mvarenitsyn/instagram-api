@@ -1,0 +1,33 @@
+{
+    "name": "instagram-api",
+    "version": "1.0.0",
+    "description": "Instagram API for automated interactions like posting comments and liking posts",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "instagram",
+        "api",
+        "automation",
+        "puppeteer",
+        "comments",
+        "likes"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.2",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "form-data": "^4.0.0",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.5-lts.1",
+        "puppeteer": "^21.5.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
